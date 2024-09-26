@@ -10,7 +10,6 @@ let rec minval lst =
 
 let a = [325; 272; 643; 89; 322] ;;
 
-
 Printf.printf "%d\n" (minval a);;
 
 (*
