@@ -9,6 +9,8 @@ let rec minval lst =
     | x :: xs -> min x (minval xs);;
 
 let a = [325; 272; 643; 89; 322] ;;
+
+
 Printf.printf "%d\n" (minval a);;
 
 (*
